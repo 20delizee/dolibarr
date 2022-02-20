@@ -1,0 +1,99 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+html{
+    color: black,;
+    font-weight: bold;
+}
+
+body {
+    background-color:#ffcc00; /* couleur de fonds */
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;    /* Police des lettres */
+    font-size:13px;
+    
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    /* Padding to avoid the "unsafe" areas behind notches in the screen */
+    width:100%;
+
+
+    color: black;
+}
+
+h1 {
+    font-size:15px;
+    font-weight:normal;
+    margin:0px;
+    margin-bottom: 2em;
+
+    padding:0px;
+    width:100%;
+    text-align:center;
+}
+
+#corps{
+    margin-top: 40px;;
+    padding: 65px;
+
+
+}
+
+#img_inserer{
+    border: 2px solid #CFCFCF;
+    border-radius: 5px;
+}
+.box{
+
+    padding-bottom: 15%;
+}
+.box-auth{
+    padding: 25px;
+    padding-top: 5%;
+}
+
+#DescURL{
+    display: flex;
+    flex-direction: column;
+}
+#URLdetaille{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDC4F;
+    border-radius: 10px;
+}
+#affGlobal{
+    display: flex;
+    background-color: #FFDC4F;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+.warning{
+    color:red;
+    font-size:12px;
+    font-weight: bold;
+}
+.succes{
+    color: #3fff19;
+    font-size:12px;
+    font-weight: bold;
+}
